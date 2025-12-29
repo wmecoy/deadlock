@@ -1,0 +1,370 @@
+﻿{
+  "damage_flash": {
+    "bullet_damage": {
+      "duration": 0.25,
+      "coverage": 0.5,
+      "hardness": 0.7,
+      "brightness": 1.2,
+      "color": {
+        "red": 255,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255
+      }
+    },
+    "tech_damage": {
+      "duration": 0.25,
+      "coverage": 0.5,
+      "hardness": 0.5,
+      "brightness": 1.5,
+      "color": {
+        "red": 35,
+        "green": 17,
+        "blue": 236,
+        "alpha": 255
+      }
+    },
+    "healing_damage": {
+      "duration": 1.0,
+      "coverage": 0.5,
+      "hardness": 0.0,
+      "brightness": 1.2,
+      "color": {
+        "red": 0,
+        "green": 195,
+        "blue": 45,
+        "alpha": 255
+      },
+      "brightness_in_light_sensitivity_mode": 0.6
+    },
+    "crit_damage": {
+      "duration": 0.33,
+      "coverage": 0.6,
+      "hardness": 0.9,
+      "brightness": 1.7,
+      "color": {
+        "red": 255,
+        "green": 255,
+        "blue": 0,
+        "alpha": 255
+      }
+    },
+    "melee_damage": {
+      "duration": 0.275,
+      "coverage": 0.5,
+      "hardness": 0.0,
+      "brightness": 3.0,
+      "color": {
+        "red": 254,
+        "green": 101,
+        "blue": 40,
+        "alpha": 255
+      }
+    }
+  },
+  "glitch_settings": {
+    "strength": 1.0,
+    "uantize_type": 2.0,
+    "quantize_scale": 0.5,
+    "quantize_strength": 0.2,
+    "frame_rate": 5.0,
+    "speed": 10.0,
+    "jump_strength": 1.0,
+    "distort_strength": 1.25,
+    "white_noise_strength": 3.0,
+    "scanline_strength": 1.5,
+    "breakup_strength": 0.0
+  },
+  "lane_info": [
+    {
+      "lane_name": "Yellow",
+      "css_class": "yellowLane",
+      "color": {
+        "red": 241,
+        "green": 204,
+        "blue": 48,
+        "alpha": 255
+      },
+      "minimap_zipline_color_override": {
+        "red": 190,
+        "green": 169,
+        "blue": 78,
+        "alpha": 255
+      },
+      "objective_color": {
+        "red": 249,
+        "green": 212,
+        "blue": 5,
+        "alpha": 255
+      }
+    },
+    {
+      "lane_name": "Yellow + Orange",
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255
+      }
+    },
+    {
+      "lane_name": "Green",
+      "css_class": "greenLane",
+      "color": {
+        "red": 255,
+        "green": 20,
+        "blue": 147,
+        "alpha": 255
+      },
+      "minimap_zipline_color_override": {
+        "red": 255,
+        "green": 20,
+        "blue": 147,
+        "alpha": 255
+      },
+      "objective_color": {
+        "red": 255,
+        "green": 20,
+        "blue": 147,
+        "alpha": 255
+      }
+    },
+    {
+      "lane_name": "Blue",
+      "css_class": "blueLane",
+      "color": {
+        "red": 41,
+        "green": 177,
+        "blue": 204,
+        "alpha": 255
+      },
+      "minimap_zipline_color_override": {
+        "red": 85,
+        "green": 155,
+        "blue": 190,
+        "alpha": 255
+      },
+      "objective_color": {
+        "red": 67,
+        "green": 125,
+        "blue": 220,
+        "alpha": 255
+      }
+    },
+    {
+      "lane_name": " + Purple",
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255
+      }
+    },
+    {
+      "lane_name": "Purple",
+      "css_class": "purpleLane",
+      "color": {
+        "red": 89,
+        "green": 178,
+        "blue": 71,
+        "alpha": 255
+      },
+      "minimap_zipline_color_override": {
+        "red": 102,
+        "green": 153,
+        "blue": 92,
+        "alpha": 255
+      },
+      "objective_color": {
+        "red": 89,
+        "green": 178,
+        "blue": 71,
+        "alpha": 255
+      }
+    }
+  ],
+  "new_player_metrics": [
+    {
+      "skill_tier_name": "Bronze",
+      "net_worth": 1000,
+      "damage_taken": 6600,
+      "boss_damage": 300,
+      "player_damage": 900,
+      "last_hits": 1,
+      "orbs_secured": 1,
+      "orbs_denied": 1,
+      "abilities_upgraded": 1,
+      "mods_purchased": 1
+    },
+    {
+      "skill_tier_name": "Silver",
+      "net_worth": 1000,
+      "damage_taken": 5800,
+      "boss_damage": 400,
+      "player_damage": 1400,
+      "last_hits": 1,
+      "orbs_secured": 1,
+      "orbs_denied": 1,
+      "abilities_upgraded": 1,
+      "mods_purchased": 1
+    },
+    {
+      "skill_tier_name": "Gold",
+      "net_worth": 1000,
+      "damage_taken": 5000,
+      "boss_damage": 600,
+      "player_damage": 1800,
+      "last_hits": 1,
+      "orbs_secured": 1,
+      "orbs_denied": 1,
+      "abilities_upgraded": 1,
+      "mods_purchased": 1
+    },
+    {
+      "skill_tier_name": "Platinum",
+      "net_worth": 1000,
+      "damage_taken": 4600,
+      "boss_damage": 700,
+      "player_damage": 2300,
+      "last_hits": 1,
+      "orbs_secured": 1,
+      "orbs_denied": 1,
+      "abilities_upgraded": 1,
+      "mods_purchased": 1
+    }
+  ],
+  "minimap_team_rebels_color": {
+    "red": 58,
+    "green": 91,
+    "blue": 66,
+    "alpha": 255
+  },
+  "minimap_team_combine_color": {
+    "red": 83,
+    "green": 51,
+    "blue": 51,
+    "alpha": 255
+  },
+  "enemy_objectives_and_zipline_color": {
+    "red": 220,
+    "green": 76,
+    "blue": 47,
+    "alpha": 255
+  },
+  "enemy_objectives_color": {
+    "red": 220,
+    "green": 76,
+    "blue": 47,
+    "alpha": 255
+  },
+  "enemy_zipline_color": {
+    "red": 140,
+    "green": 55,
+    "blue": 38,
+    "alpha": 255
+  },
+  "item_price_per_tier": [
+    0,
+    800,
+    1600,
+    3200,
+    6400,
+    9999
+  ],
+  "trooper_kill_gold_share_frac": [
+    1.0,
+    0.54,
+    0.36,
+    0.25,
+    0.2,
+    0.16
+  ],
+  "hero_kill_gold_share_frac": [
+    1.25,
+    0.575,
+    0.283,
+    0.175,
+    0.11,
+    0.083
+  ],
+  "aim_spring_strength": [
+    0.0,
+    2.0,
+    10.0,
+    300.0
+  ],
+  "targeting_spring_strength": [
+    0.0,
+    2.0,
+    10.0,
+    30.0
+  ],
+  "objective_params": {
+    "gold_per_orb": 0,
+    "near_player_split_pct": 40.0,
+    "tier1_gold_kill": 1000,
+    "tier1_gold_orbs": 0,
+    "tier2_gold_kill": 3500,
+    "tier2_gold_orbs": 0,
+    "base_guardians_gold_kill": 750,
+    "base_guardians_gold_orbs": 0,
+    "shrines_gold_kill": 0,
+    "shrines_gold_orbs": 0,
+    "patron_phase1_gold_kill": 0,
+    "patron_phase1_gold_orbs": 0
+  },
+  "rejuv_params": {
+    "rejuvinator_expiration_warning_timing": 30.0,
+    "rejuvinator_buff_duration": 240.0,
+    "rejuvinator_drop_height": 500.0,
+    "rejuvinator_drop_duration": 7.0,
+    "trooper_health_mult": [
+      1.7,
+      2.0,
+      2.3
+    ],
+    "player_respawn_mult": [
+      0.5,
+      0.4,
+      0.3
+    ],
+    "rejuvinator_rebirth_duration": [
+      240.0,
+      240.0,
+      240.0
+    ]
+  },
+  "mini_map_offsets": [
+    {
+      "entity_class": "CLASS_BOSS_TIER_3",
+      "offset_2d": [
+        0.0,
+        1000.0
+      ],
+      "lane_index": 0
+    },
+    {
+      "entity_class": "CLASS_BOSS_BARRACKS",
+      "offset_2d": [
+        500.0,
+        0.0
+      ],
+      "lane_index": 1
+    },
+    {
+      "entity_class": "CLASS_BOSS_BARRACKS",
+      "offset_2d": [
+        500.0,
+        0.0
+      ],
+      "lane_index": 6
+    },
+    {
+      "entity_class": "CLASS_DESTROYABLE_BUILDING",
+      "offset_2d": [
+        0.0,
+        400.0
+      ]
+    }
+  ]
+}
