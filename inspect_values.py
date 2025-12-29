@@ -6,7 +6,7 @@ INPUT_FILE = r'c:\Users\Will Mecoy\.gemini\antigravity\playground\electric-singu
 def parse_value(val_str):
     if not isinstance(val_str, str):
         return 0.0
-    # R units and other non-numeric chars except dot and minus
+    # Remove units and other non-numeric chars except dot and minus
     # Example: "-1.5m/s" -> "-1.5", "35%" -> "35"
     match = re.search(r'-?\d+(\.\d+)?', val_str)
     if match:
